@@ -5,9 +5,11 @@ Project 1 in class
 
 The files in this repository were used to configure the network depicted below.
 
-!an(https://github.com/rgagnon1982/Project-1/blob/main/Diagrams/Project%201%20diagram.jpg)
+![Project 1 diagram](https://github.com/rgagnon1982/Project-1/blob/main/Diagrams/Project%201%20diagram.jpg)
 
-These files have been tested and u![Project 1 diagram](C:\Users\redrc\Desktop\Project-1\Diagrams\Project 1 diagram.jpg)sed to generate a live ELK deployment on Azure. They can be used to either recreate the entire deployment pictured above. Alternatively, select portions of the _____ file may be used to install only certain pieces of it, such as Filebeat.
+
+
+These files have been tested and used to generate a live ELK deployment on Azure. They can be used to either recreate the entire deployment pictured above. Alternatively, select portions of the _____ file may be used to install only certain pieces of it, such as Filebeat.
 
   - _Ansible Config_
 
