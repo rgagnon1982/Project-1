@@ -9,23 +9,23 @@ The files in this repository were used to configure the network depicted below.
 
 
 
-These files have been tested and used to generate a live ELK deployment on Azure. They can be used to either recreate the entire deployment pictured above. Alternatively, select portions of the _____ file may be used to install only certain pieces of it, such as Filebeat.
+These files have been tested and used to generate a live ELK deployment on Azure. Yaml files. They can be used to either recreate the entire deployment pictured above. Alternatively, select portions of the file may be used to install only certain pieces of it, such as Filebeat.
 
-  - _Ansible Config_
 
-    #  [ansible.cfg](Ansible\ansible.cfg) 
 
-     [filebeat-config .yml](Ansible\filebeat-config .yml) 
+#  [ansible.cfg](Ansible\ansible.cfg) 
 
-     [filebeat-playbook.yml](Ansible\filebeat-playbook.yml) 
+ [filebeat-config .yml](Ansible\filebeat-config .yml) 
 
-     [hosts.yml](Ansible\hosts.yml) 
+ [filebeat-playbook.yml](Ansible\filebeat-playbook.yml) 
 
-     [install-elk.yml](Ansible\install-elk.yml) 
+ [hosts.yml](Ansible\hosts.yml) 
 
-     [metricbeat-config.yml](Ansible\metricbeat-config.yml) 
+ [install-elk.yml](Ansible\install-elk.yml) 
 
-     [metricbeat-playbook.yml](Ansible\metricbeat-playbook.yml) 
+ [metricbeat-config.yml](Ansible\metricbeat-config.yml) 
+
+ [metricbeat-playbook.yml](Ansible\metricbeat-playbook.yml) 
 
 This document contains the following details:
 
@@ -104,7 +104,7 @@ The playbook implements the following tasks:
 
 The following screenshot displays the result of running `docker ps` after successfully configuring the ELK instance.
 
-(C:\Users\redrc\Desktop\Images\docker_ps_output.png)
+(https://github.com/rgagnon1982/Project-1/blob/main/Images/Project%20screenshot%2012-4-21.JPG)
 
 ### Target Machines & Beats
 
