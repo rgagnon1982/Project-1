@@ -5,7 +5,7 @@ Project 1 in class
 
 The files in this repository were used to configure the network depicted below.
 
-!an(C:\Users\redrc\Desktop\Images\diagram_filename.png)
+!an(https://github.com/rgagnon1982/Project-1/blob/main/Diagrams/Project%201%20diagram.jpg)
 
 These files have been tested and u![Project 1 diagram](C:\Users\redrc\Desktop\Project-1\Diagrams\Project 1 diagram.jpg)sed to generate a live ELK deployment on Azure. They can be used to either recreate the entire deployment pictured above. Alternatively, select portions of the _____ file may be used to install only certain pieces of it, such as Filebeat.
 
@@ -71,7 +71,7 @@ Only the jumpbox machine can accept connections from the Internet. Access to thi
 
 Machines within the network can only be accessed by the jumpbox____.
 
-- _TODO: Which machine did you allow to access your ELK VM?  Jumpbox What was its IP address?_20.102.63.28
+Which machine did you allow to access your ELK VM?  Jumpbox What was its IP address?_20.102.63.28
 
 A summary of the access policies in place can be found in the table below.
 
@@ -87,11 +87,11 @@ A summary of the access policies in place can be found in the table below.
 
 Ansible was used to automate configuration of the ELK machine. No configuration was performed manually, which is advantageous because...
 
-- _TODO: What is the main advantage of automating configuration with Ansible?_ Ansible is advantageous because it provides consistant deployment and management
+- What is the main advantage of automating configuration with Ansible?_ Ansible is advantageous because it provides consistant deployment and management
 
 The playbook implements the following tasks:
 
-- _TODO: In 3-5 bullets, explain the steps of the ELK installation play. E.g., install Docker; download image; etc._
+- In 3-5 bullets, explain the steps of the ELK installation play. E.g., install Docker; download image; etc._
 - install docker.io, 
 - intall python3.pip,
 -  install the docker module,
@@ -108,7 +108,7 @@ The following screenshot displays the result of running `docker ps` after succes
 
 This ELK server is configured to monitor the following machines:web 1, web2 web 3
 
-- _TODO: List the IP addresses of the machines you are monitoring_ 10.0.05, 10.0.06, 10.0.0.7
+- List the IP addresses of the machines you are monitoring_ 10.0.05, 10.0.06, 10.0.0.7
 
 We have installed the following Beats on these machines:
 
@@ -130,7 +130,7 @@ SSH into the control node and follow the steps below:
 - Update the hosts file to include the IP addresses of machines you want to configure, as well as python interpreter itll be using.
 - Run the playbook, and navigate to the new configured virutal machine to check that the installation worked as expected.
 
-_TODO: Answer the following questions to fill in the blanks:_
+ Answer the following questions to fill in the blanks:_
 
 - _Which file is the playbook? This question is not specific but the playbooks that we have are .yml and begin with "---" .  _
 - _Where do you copy it?_ /etc/ansible
